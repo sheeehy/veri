@@ -1,10 +1,10 @@
-import { PdfUploader } from "@/app/components/pdf-uploader";
+import FileUpload from "@/app/components/FileUpload";
 
 export default function Home() {
   return (
-    <main className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">PDF Content Viewer</h1>
-      <PdfUploader />
+    <main className="flex min-h-screen flex-col items-center justify-center p-24">
+      <h1 className="text-4xl font-bold mb-8">PDF Content Extractor</h1>
+      <FileUpload />
     </main>
   );
 }
